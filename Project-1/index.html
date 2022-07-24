@@ -1,0 +1,201 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rise Decor</title>
+    <link rel="stylesheet" href="css/style.css" class="css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            /* box-sizing: border-box; */
+            font-family: 'Baloo Bhai 2', cursive;
+
+        }
+
+        /* CSS reset */
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('house.webp')no-repeat center center/cover;
+            width: 1350px;
+            height: 750px;
+        }
+
+        .left {
+            /* border: 3px solid red; */
+            position: absolute;
+            left: 23px;
+            top: 30px;
+        }
+
+        .left img {
+            width: 90px;
+            border-radius: 226px;
+            bo padding: 3px 3px;
+        }
+
+        .mid {
+            /* border: 3px solid blue; */
+            display: inline-block;
+            margin: auto 333px;
+            width: 599px;
+        }
+
+        .right {
+            /* border: 3px solid green; */
+            position: absolute;
+            right: 67px;
+            top: 19px;
+            margin: auto;
+            display: inline-block;
+            width: 244px;
+
+
+        }
+
+        .dream {
+            border: 7px solid #010b4f;
+            float: right;
+            margin-top: 3px;
+            padding: 3px;
+            height: 706px;
+            font-size: 34px;
+            width: 54px;
+            text-align: center;
+            border-radius: 18px;
+            color: white;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 23px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            margin: 5px 31px;
+            padding: 3px 3px;
+
+        }
+
+        .navbar li a:hover {
+            color: rgb(179, 63, 190);
+            text-decoration: underline;
+
+        }
+
+        .btn {
+            margin: 0px 8px;
+            padding: 5px 9px;
+            background-color: #3a1a9a;
+            border: 3px solid #92aeae;
+            border-radius: 14px;
+            font-size: 16px;
+            cursor: pointer;
+            color: #e8d3d3;
+        }
+
+        .btn:hover {
+            background-color: rgb(29, 29, 51);
+        }
+
+        .container {
+            border: 7px solid rgb(10 0 116);
+            margin: 104px 161px;
+            padding: 8px 99px;
+            width: 20%;
+            border-radius: 8px;
+            height: 383px;
+        }
+
+        .formgroup input {
+            text-align: center;
+            width: 277px;
+            padding: 0px;
+            border: 5px solid black;
+            margin: 4px auto;
+            font-size: 18px;
+            border-radius: 8px;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            width: 100%;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div><img src="house.webp" alt=""></div> -->
+    <header class="header">
+        <div class="left">
+            <img src="logo.img.jpg" alt=""><br>
+            <img src="name.jpg" alt="">
+
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Design</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <button class="btn">Catalogues</button>
+            <button class="btn">Certificates</button>
+        </div>
+
+
+
+        <div class="dream">
+            D<br>r <br>e <br>a <br>m <br>C <br> o <br> m <br>e <br>T <br>r <br>u <br>e <br>
+        </div>
+        <div class="container">
+            <h1>Contact Support </h1>
+            <form action="noaction.php">
+                <div class="formgroup">
+                    <input type="text" placeholder="Enter Your Name">
+                </div>    
+                <div class="formgroup">
+                    <input type="number" placeholder="Mobile Number">
+                </div>    
+                <div class="formgroup">
+                    <input type="text" placeholder="Address Details">
+                </div>    
+                <div class="formgroup">
+                    <input type="text" placeholder="Locality">
+                </div>    
+                <div class="formgroup">
+                    <input type="email" placeholder="E-mail">
+                </div>    
+                 
+                    <button class="btn">submit</button>
+            </form>
+
+        </div>
+
+    </header>
+
+
+
+</body>
+
+</html>
